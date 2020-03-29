@@ -1,4 +1,4 @@
 package test250320;
 
-public class Rabbit extends FarmAnimals {
+public class Rabbit extends FarmAnimals implements CanBeEaten {
 }

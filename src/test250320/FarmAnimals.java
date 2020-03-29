@@ -48,7 +48,9 @@ class FarmAnimals extends Animals implements Run, Heal {
 
     @Override
     public void heal() {
-        health++
+        if (health<initialHealth){
+            health++;
+        }
     }
 }
 

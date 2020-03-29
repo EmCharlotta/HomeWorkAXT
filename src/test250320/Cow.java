@@ -1,14 +1,5 @@
 package test250320;
 
-public class Cow extends FarmAnimals implements GiveResources {
+public class Cow extends FarmAnimals implements CanBeEaten {
 
-    @Override
-    public void canBeEaten() {
-
-    }
-
-    @Override
-    public void giveResources() {
-
-    }
 }
