@@ -1,6 +1,5 @@
-package HomeWorkLesson060320;
+package homeworklesson060320;
 
-import javax.swing.*;
 import java.util.Arrays;
 import java.util.Scanner;
 
