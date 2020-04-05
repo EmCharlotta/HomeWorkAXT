@@ -7,7 +7,7 @@ public class Farm {
     Fox fox1 = new Fox();
     Bear bear1 = new Bear();
     Random random1 = new Random();
-    private WildAnimals [] wildAnimals = {wolf1, fox1, bear1};
+    private WildAnimals[] wildAnimals = {wolf1, fox1, bear1};
     Cow cow1 = new Cow();
     Cow cow2 = new Cow();
     Cow cow3 = new Cow();
@@ -18,7 +18,7 @@ public class Farm {
     Rabbit rabbit1 = new Rabbit();
     Rabbit rabbit2 = new Rabbit();
     Rabbit rabbit3 = new Rabbit();
-    private FarmAnimals[] farmAnimals = {cow1, cat1, hen1,rabbit1,cow2, cat2, hen2,rabbit2,cow3,rabbit3};
+    private FarmAnimals[] farmAnimals = {cow1, cat1, hen1, rabbit1, cow2, cat2, hen2, rabbit2, cow3, rabbit3};
 
     Farmer farmer = new Farmer();
 
@@ -60,15 +60,14 @@ public class Farm {
             }
             int sum = 0;
             for (FarmAnimals farmAnimal1 : farmAnimals) {
-                if (farmAnimal1.isOnFarm()==true && farmAnimal1 instanceof GiveResources) {
+                if (farmAnimal1.isOnFarm() == true && farmAnimal1 instanceof GiveResources) {
                     sum++;
-                    farmer.collectRes();
+                    // farmer.collectRes();
                 }
-                if (sum<1) {
-                }
+                if (sum < 1) {
                 }
             }
-
         }
+
     }
 }

@@ -1,4 +1,4 @@
 package test250320;
 
-public class Wolf extends WildAnimals implements {
+public class Wolf extends WildAnimals{
 }
