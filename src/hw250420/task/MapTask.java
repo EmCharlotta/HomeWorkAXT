@@ -49,19 +49,21 @@ public class MapTask {
         System.out.println(i);
     }
 
-    public static void letters(String[] strings){
+    public static void letters(String[] strings) {
         HashMap<Letters, Integer> map = new HashMap<>();
-        for(String s: strings){
+        // использовать в HashMap ключом длину слова, значение ArrayList слов с такой длиной
+        for (String s : strings) {
             Letters letter = new Letters(s.length(), s);
             map.put(letter, s.length());
         }
-        for (int i =1; i<20; i++){
-            for (String s: strings){
-               
-                }
+        for (int i = 1; i < 20; i++) {
+            for (String s : strings) {
+
             }
         }
     }
+
+
     public static void main(String[] args) {
         HashMap<String, String> firstTaskMap = new HashMap<>();
         firstTaskMap.put("qwe", "Тверь");
@@ -114,8 +116,8 @@ public class MapTask {
 
         String[] strings = text.split("\\s");
         System.out.println(Arrays.toString(strings));
-        timesInText("uncover",strings);
+        timesInText("uncover", strings);
         letters(strings);
     }
-
 }
+
